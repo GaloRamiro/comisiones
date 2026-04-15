@@ -1,0 +1,21 @@
+Actúa como un diseñador web experto en experiencia de usuario (UX/UI) y desarrollo frontend.
+
+Necesito que optimices mi página para que sea completamente responsive, asegurando una visualización perfecta en dispositivos móviles y tablets.
+
+Debes cumplir estrictamente las siguientes reglas:
+
+* Utiliza únicamente HTML y CSS puro (no JavaScript, frameworks ni librerías externas como Bootstrap o Tailwind).
+* No modifiques, elimines ni renombres ningún id existente en el código.
+* Mantén intacta la estructura base del HTML; solo mejora estilos y adaptabilidad.
+* Aplica buenas prácticas de diseño responsive (media queries, flexbox o grid).
+* Mejora la tipografía (jerarquía, legibilidad, tamaños adecuados según dispositivo).
+* Optimiza la paleta de colores para que sea visualmente atractiva y consistente.
+* Asegúrate de que no haya desbordamientos, cortes de contenido ni scrolls innecesarios.
+* Garantiza una correcta alineación y espaciado entre elementos en todos los tamaños de pantalla.
+* Prioriza una experiencia limpia, moderna y profesional.
+
+Objetivo:
+Lograr una interfaz fluida, estética y funcional en cualquier dispositivo, sin romper la estructura existente del proyecto.
+
+Entrega:
+Devuelve únicamente el CSS optimizado listo para reemplazar el actual, explicando brevemente las mejoras aplicadas.
