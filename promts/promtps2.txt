@@ -1,0 +1,59 @@
+===================================Prompt 1 (validación de inputs)===================================
+
+Quiero validar inputs en JavaScript con las siguientes reglas:
+
+* Mostrar el mensaje de error debajo de cada input.
+* No usar alert.
+* El mensaje debe mostrarse en color rojo y en cursiva.
+
+Validaciones que debe realizar:
+
+* Solo permitir números.
+* Máximo 5 dígitos.
+* No puede estar vacío.
+
+Condiciones técnicas:
+
+* Usar los mismos ID existentes: txtSueldoBase, txtVentas, txtPrecio.
+* Utilizar eventos onblur (cuando el usuario salga del input).
+* El mensaje debe aparecer debajo del input correspondiente.
+* Cuando se ejecute el onblur y haya error, el input debe moverse de lado a lado como advertencia visual.
+
+Devuélveme únicamente las partes necesarias en HTML, CSS y JavaScript, no todo el código completo.
+
+
+===================================Prompt 2 (mensaje de ayuda debajo del input)===================================
+
+Quiero agregar un mensaje de ayuda debajo de cada input que indique cómo debe ingresar los datos (por ejemplo: solo números, máximo 5 dígitos).
+
+Requisitos:
+
+* El mensaje debe mostrarse debajo del input.
+* Debe tener un estilo diferente al error (color gris).
+* Cuando haya un error, el mensaje debe cambiar a rojo y en cursiva.
+* Cuando el dato sea correcto, debe volver a mostrarse el mensaje de ayuda.
+
+Condiciones técnicas:
+
+* Usar los mismos ID existentes.
+* Integrarlo con la validación usando onblur.
+
+Devuélveme solo las partes necesarias en HTML, CSS y JavaScript.
+
+=================================== Prompt 3 (placeholder dentro del input) ===================================
+
+Quiero agregar texto dentro de los inputs como guía para el usuario utilizando placeholder.
+
+Requisitos:
+
+* El texto debe ser corto y claro (ejemplo: "Ej: 1200").
+* Debe adaptarse a cada campo: txtSueldoBase, txtVentas, txtPrecio.
+* Debe mantener un estilo profesional tipo aplicación bancaria.
+
+Devuélveme únicamente los placeholders recomendados para cada input.
+
+
+
+
+
+

@@ -27,6 +27,35 @@ function calcular(){
  
 }
 
+function validarNumero(input, idError) {
+    let valor = input.value.trim();
+    let mensaje = "";
+    let regex = /^[0-9]+$/;
+
+    if (valor === "") {
+        mensaje = "Este campo no puede estar vacío";
+    } else if (!regex.test(valor)) {
+        mensaje = "Solo se permiten números";
+    } else if (valor.length > 5) {
+        mensaje = "Máximo 5 dígitos permitidos";
+    }
+
+    let errorElemento = document.getElementById(idError);
+
+    if (mensaje !== "") {
+        errorElemento.textContent = mensaje;
+
+        // efecto de vibración
+        input.classList.add("input-error");
+        setTimeout(() => {
+            input.classList.remove("input-error");
+        }, 300);
+
+    } else {
+        errorElemento.textContent = "";
+    }
+}
+
 
 
 

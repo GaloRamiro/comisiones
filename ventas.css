@@ -147,3 +147,30 @@ span {
         font-size: 0.9rem;
     }
 }
+
+.mensaje-error {
+    color: red;
+    font-style: italic;
+    font-size: 12px;
+    display: block;
+    margin-top: 4px;
+}
+
+/* animación tipo "alerta" */
+.input-error {
+    border: 2px solid red;
+    animation: vibrar 0.2s linear 3;
+}
+
+@keyframes vibrar {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-4px); }
+    50% { transform: translateX(4px); }
+    75% { transform: translateX(-4px); }
+    100% { transform: translateX(0); }
+}
+
+::placeholder {
+    color: #9ca3af;
+    font-style: italic;
+}
